@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 5%;
+}
+
+header {
+  margin-top: -3%;
+
+  padding-block: 8%;
+  background-color: palegoldenrod;
+  text-align: center;
+}
+
+ol li {
+  line-height: 1.5;
+}
+
+ol {
+  list-style-type: circle;
+}
+
+.text-image-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+img {
+  width: 30%;
+}
+
+@media only screen and (max-width: 1000px) {
+  img {
+    display: none;
+  }
+}
